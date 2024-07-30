@@ -4,7 +4,7 @@ import "./LoginPopUp.css";
 import { assets } from "../../assets/assets";
 import { useState } from "react";
 
-const LoginPopUp = (setShowLogin) => {
+const LoginPopUp = ({ setShowLogin }) => {
   const [currState, setCurrState] = useState("Log In");
   return (
     <div className="login-popup">
